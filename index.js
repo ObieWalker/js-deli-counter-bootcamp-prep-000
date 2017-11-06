@@ -25,7 +25,7 @@ function currentLine(line){
   var item = ''
   var arr = []
   for (var key in lineObject){
-    item = key + ". " + lineObject[key]
+    item = " "+key + ". " + lineObject[key]
     arr.push(item)
     var finalList = arr.toString()
 
