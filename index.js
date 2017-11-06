@@ -9,5 +9,5 @@ function nowServing(lineArray){
   }
   var next = lineArray[0]
   lineArray.shift()
-  return "Currently serving "+next "."
+  return "Currently serving "+next +"."
 }
