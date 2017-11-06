@@ -27,7 +27,8 @@ function currentLine(line){
   for (var key in lineObject){
     item = key + ". " + lineObject[key]
     arr.push(item)
+    var finalList = arr.toString()
 
   }
-  return "The line is currently:" +" "+arr.toString()+ " "
+  return "The line is currently:" finalList
 }
