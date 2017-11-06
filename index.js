@@ -23,11 +23,11 @@ function currentLine(line){
     console.log(lineObject)
   }
   var item = ''
-  var arr = ["The line is currently: "]
+  var arr = []
   for (var key in lineObject){
     item = key + ". " + lineObject[key]
     arr.push(item)
-    arr.toString()
+  
   }
-  return arr;
+  return "The line is currently: " +arr.toString();
 }
