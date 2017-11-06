@@ -27,7 +27,7 @@ function currentLine(line){
   for (var key in lineObject){
     item = key + ". " + lineObject[key]
     arr.push(item)
-  
+
   }
   return "The line is currently: " +arr.toString();
 }
