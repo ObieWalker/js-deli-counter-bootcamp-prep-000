@@ -30,5 +30,5 @@ function currentLine(line){
     var finalList = arr.toString()
 
   }
-  return "The line is currently:" finalList
+  return "The line is currently:" +finalList
 }
