@@ -2,3 +2,12 @@ function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name)
   return "Welcome, "+name+". You are number " + katzDeliLine.length +" in line."
 }
+
+function nowServing(lineArray){
+  if (lineArray === 0){
+    return "There is nobody waiting to be served"
+  }
+  var next = lineArray[0]
+  lineArray.shift()
+  return next
+}
