@@ -29,5 +29,5 @@ function currentLine(line){
     arr.push(item)
 
   }
-  return "The line is currently:" " "+arr.toString()+ " "
+  return "The line is currently:" +" "+arr.toString()+ " "
 }
